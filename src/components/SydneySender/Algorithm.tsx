@@ -84,7 +84,7 @@ const getSimilarity = (formData: ActivityFormData, input: ResultData) => {
     total += formData.transportModes.driving ? PTRA_RATE : 0;
 
 
-    return total / (DIST_RATE + SOCI_RATE + PHYS_RATE + PRIC_RATE + HUNG_RATE + PTRA_RATE + PRKG_RATE + ALCH_RATE + TODA_RATE);
+    return total / (DIST_RATE + SOCI_RATE + PHYS_RATE + PRIC_RATE + HUNG_RATE + PTRA_RATE + PRKG_RATE + ALCH_RATE + TODA_RATE + STRG_RATE);
 }
 
 const dayToNum = (day: string) => {
