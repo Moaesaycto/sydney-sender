@@ -2,27 +2,27 @@
     "activities": [
         {
             "name": "Tramsheds",
-            "timeOfDay": "anytime",
+            "timeOfDay": "evening",
             "maxTravelDistance": 1,
             "crowdPreference": 3,
-            "physicalDemand": 2,
+            "physicalDemand": 1,
             "socialIntent": 1,
-            "budget": 6,
+            "budget": 2,
             "wantsFood": true,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "A small but modern marketplace with restaurants, cafes and a nice view."
+            "description": "Enjoy a relaxed dinner or explore unique dining options at Tramsheds."
         },
         {
             "name": "Jubilee Park",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 2,
-            "physicalDemand": 6,
-            "socialIntent": 6,
+            "crowdPreference": 1,
+            "physicalDemand": 2,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": true,
             "wantsAlcohol": false,
@@ -30,47 +30,79 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "A peaceful park with lovely views of the water."
+            "description": "Take a scenic walk along the water and enjoy beautiful views."
         },
         {
             "name": "Axe Throwing",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
-            "crowdPreference": 6,
-            "physicalDemand": 4,
-            "socialIntent": 5,
-            "budget": 8,
+            "crowdPreference": 3,
+            "physicalDemand": 3,
+            "socialIntent": 2,
+            "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": false,
                 "driving": true
             },
-            "description": "Unleash your inner lumberjack with a fun, competitive activity."
+            "description": "Test your aim with a thrilling axe-throwing session."
         },
         {
             "name": "Bowling",
-            "timeOfDay": "anytime",
+            "timeOfDay": "evening",
             "maxTravelDistance": 1,
-            "crowdPreference": 6,
-            "physicalDemand": 4,
-            "socialIntent": 6,
-            "budget": 7,
+            "crowdPreference": 3,
+            "physicalDemand": 3,
+            "socialIntent": 2,
+            "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "A classic group activity for fun and friendly competition."
+            "description": "Enjoy a fun and competitive bowling game with friends."
         },
         {
             "name": "Pancakes on the Rocks",
-            "timeOfDay": "anytime",
+            "timeOfDay": "morning",
+            "maxTravelDistance": 1,
+            "crowdPreference": 2,
+            "physicalDemand": 0,
+            "socialIntent": 2,
+            "budget": 2,
+            "wantsFood": true,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": false
+            },
+            "description": "Indulge in delicious pancakes and hearty meals in a cozy setting."
+        },
+        {
+            "name": "Movies",
+            "timeOfDay": "day",
+            "maxTravelDistance": 1,
+            "crowdPreference": 2,
+            "physicalDemand": 0,
+            "socialIntent": 0,
+            "budget": 3,
+            "wantsFood": true,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": false
+            },
+            "description": "Catch the latest blockbusters on the big screen."
+        },
+        {
+            "name": "City Shopping Spree",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
             "crowdPreference": 4,
-            "physicalDemand": 1,
-            "socialIntent": 8,
+            "physicalDemand": 3,
+            "socialIntent": 1,
             "budget": 4,
             "wantsFood": true,
             "wantsAlcohol": false,
@@ -78,79 +110,47 @@
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "A beloved spot for enjoying delicious pancakes and sweet treats."
-        },
-        {
-            "name": "Movies",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 1,
-            "crowdPreference": 5,
-            "physicalDemand": 1,
-            "socialIntent": 2,
-            "budget": 7,
-            "wantsFood": true,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": false
-            },
-            "description": "Relax and enjoy the latest films in a cinema."
-        },
-        {
-            "name": "City Shopping Spree",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 1,
-            "crowdPreference": 8,
-            "physicalDemand": 6,
-            "socialIntent": 4,
-            "budget": 9,
-            "wantsFood": true,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": false
-            },
-            "description": "Shop till you drop in Sydney's bustling city centre."
+            "description": "Explore the vibrant shopping scene in the heart of Sydney."
         },
         {
             "name": "City Heroes Pool",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 6,
-            "physicalDemand": 3,
-            "socialIntent": 6,
-            "budget": 7,
+            "crowdPreference": 3,
+            "physicalDemand": 1,
+            "socialIntent": 2,
+            "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "A great place to relax and enjoy swimming in the heart of the city."
+            "description": "Swim and unwind at a centrally located pool."
         },
         {
             "name": "China Town",
-            "timeOfDay": "anytime",
+            "timeOfDay": "evening",
             "maxTravelDistance": 1,
-            "crowdPreference": 6,
-            "physicalDemand": 5,
-            "socialIntent": 6,
-            "budget": 8,
+            "crowdPreference": 3,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 3,
             "wantsFood": true,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Explore the vibrant culture and cuisine of Chinatown."
+            "description": "Immerse yourself in the vibrant culture and cuisine of Chinatown."
         },
         {
             "name": "City Walking",
-            "timeOfDay": "anytime",
+            "timeOfDay": "morning",
             "maxTravelDistance": 1,
-            "crowdPreference": 4,
-            "physicalDemand": 8,
-            "socialIntent": 5,
+            "crowdPreference": 2,
+            "physicalDemand": 4,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -158,159 +158,159 @@
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Enjoy a scenic walk through the city's streets and landmarks."
+            "description": "Discover Sydney's beauty on a scenic city walk."
         },
         {
             "name": "Opera House Performance",
-            "timeOfDay": "anytime",
+            "timeOfDay": "night",
             "maxTravelDistance": 1,
-            "crowdPreference": 8,
-            "physicalDemand": 2,
-            "socialIntent": 3,
-            "budget": 8,
+            "crowdPreference": 4,
+            "physicalDemand": 0,
+            "socialIntent": 0,
+            "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Experience world-class music and performances at the iconic Opera House."
+            "description": "Experience a world-class performance at the iconic Opera House."
         },
         {
             "name": "Live Music",
             "timeOfDay": "night",
             "maxTravelDistance": 2,
-            "crowdPreference": 9,
-            "physicalDemand": 2,
-            "socialIntent": 6,
-            "budget": 6,
+            "crowdPreference": 4,
+            "physicalDemand": 1,
+            "socialIntent": 2,
+            "budget": 3,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Enjoy live music at a vibrant pub setting."
+            "description": "Enjoy a lively night of music and atmosphere at a local pub or venue."
         },
         {
             "name": "Sydney Olympic Park",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
-            "crowdPreference": 3,
-            "physicalDemand": 6,
-            "socialIntent": 3,
-            "budget": 2,
+            "crowdPreference": 2,
+            "physicalDemand": 3,
+            "socialIntent": 1,
+            "budget": 1,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Explore the expansive grounds and activities of Sydney Olympic Park."
+            "description": "Explore the expansive grounds and activities at Sydney Olympic Park."
         },
         {
             "name": "Local Pub",
             "timeOfDay": "night",
             "maxTravelDistance": 0,
-            "crowdPreference": 4,
-            "physicalDemand": 2,
-            "socialIntent": 7,
-            "budget": 4,
+            "crowdPreference": 2,
+            "physicalDemand": 1,
+            "socialIntent": 3,
+            "budget": 2,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Relax with a drink and good food at a local pub."
+            "description": "Unwind with friends at your favorite local pub."
         },
         {
             "name": "Dinner in the City",
-            "timeOfDay": "night",
+            "timeOfDay": "evening",
             "maxTravelDistance": 1,
-            "crowdPreference": 6,
-            "physicalDemand": 3,
-            "socialIntent": 7,
-            "budget": 7,
+            "crowdPreference": 3,
+            "physicalDemand": 1,
+            "socialIntent": 3,
+            "budget": 3,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Indulge in delicious meals at various city restaurants."
+            "description": "Discover amazing dining options and vibrant city nightlife."
         },
         {
             "name": "Trivia Night",
             "timeOfDay": "night",
             "maxTravelDistance": 1,
-            "crowdPreference": 7,
-            "physicalDemand": 2,
-            "socialIntent": 9,
-            "budget": 4,
+            "crowdPreference": 3,
+            "physicalDemand": 1,
+            "socialIntent": 3,
+            "budget": 2,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Test your knowledge in a fun and competitive trivia night."
+            "description": "Challenge your brain and have fun with friends at a trivia night."
         },
         {
             "name": "Mini Golf",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
-            "crowdPreference": 4,
-            "physicalDemand": 5,
-            "socialIntent": 7,
-            "budget": 6,
+            "crowdPreference": 2,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Challenge your friends to a round of mini golf."
+            "description": "Enjoy a lighthearted competition on a mini-golf course."
         },
         {
-            "name": "Cooking With Friends",
-            "timeOfDay": "anytime",
+            "name": "Cooking with Friends",
+            "timeOfDay": "day",
             "maxTravelDistance": 0,
             "crowdPreference": 0,
-            "physicalDemand": 6,
-            "socialIntent": 5,
-            "budget": 4,
+            "physicalDemand": 3,
+            "socialIntent": 1,
+            "budget": 2,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Spend a day cooking delicious meals with friends."
+            "description": "Spend the day preparing and enjoying delicious homemade meals."
         },
         {
             "name": "Jamberoo",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 3,
-            "crowdPreference": 8,
-            "physicalDemand": 9,
-            "socialIntent": 5,
-            "budget": 9,
+            "crowdPreference": 3,
+            "physicalDemand": 4,
+            "socialIntent": 2,
+            "budget": 4,
             "wantsFood": true,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": false,
                 "driving": true
             },
-            "description": "A thrilling water park where you control the action."
+            "description": "Have an action-packed day at Jamberoo's thrilling water park."
         },
         {
             "name": "Rave",
             "timeOfDay": "night",
             "maxTravelDistance": 0,
-            "crowdPreference": 0,
-            "physicalDemand": 7,
-            "socialIntent": 5,
+            "crowdPreference": 1,
+            "physicalDemand": 3,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": true,
             "wantsAlcohol": true,
@@ -318,127 +318,127 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Join an energetic rave with great music and vibes."
+            "description": "Dance the night away at a high-energy house party or rave."
         },
         {
             "name": "Papadino's",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 3,
-            "crowdPreference": 4,
-            "physicalDemand": 3,
-            "socialIntent": 4,
-            "budget": 5,
+            "crowdPreference": 2,
+            "physicalDemand": 1,
+            "socialIntent": 1,
+            "budget": 2,
             "wantsFood": true,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": false,
                 "driving": true
             },
-            "description": "Enjoy a hearty meal at Papadino's in Katoomba."
+            "description": "Savor hearty Italian dishes at Papadino's in Katoomba."
         },
         {
             "name": "Ice Skating",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
-            "crowdPreference": 5,
-            "physicalDemand": 9,
-            "socialIntent": 3,
-            "budget": 3,
+            "crowdPreference": 1,
+            "physicalDemand": 4,
+            "socialIntent": 1,
+            "budget": 1,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Have fun gliding on the ice at the skating rink."
+            "description": "Glide on the ice and enjoy a fun skating experience."
         },
         {
             "name": "Go Karting",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
-            "crowdPreference": 3,
-            "physicalDemand": 7,
-            "socialIntent": 3,
-            "budget": 8,
+            "crowdPreference": 1,
+            "physicalDemand": 3,
+            "socialIntent": 1,
+            "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": false,
                 "driving": true
             },
-            "description": "Race against your friends in a thrilling go-kart experience."
+            "description": "Feel the adrenaline rush of competitive go-kart racing."
         },
         {
-            "name": "Aquarium",
-            "timeOfDay": "daytime",
+            "name": "Sydney Aquarium",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 4,
-            "physicalDemand": 4,
-            "socialIntent": 3,
-            "budget": 4,
+            "crowdPreference": 2,
+            "physicalDemand": 2,
+            "socialIntent": 1,
+            "budget": 2,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Explore fascinating marine life at the aquarium."
+            "description": "Explore fascinating marine life and underwater exhibits at the aquarium."
         },
         {
             "name": "Taronga Zoo",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
-            "crowdPreference": 7,
-            "physicalDemand": 8,
-            "socialIntent": 5,
-            "budget": 6,
+            "crowdPreference": 3,
+            "physicalDemand": 3,
+            "socialIntent": 2,
+            "budget": 3,
             "wantsFood": true,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": false,
                 "driving": true
             },
-            "description": "Spend a day exploring the animals and exhibits at Taronga Zoo."
+            "description": "Spend a day discovering amazing wildlife and enjoying stunning views."
         },
         {
             "name": "The Powerhouse Museum",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 4,
-            "physicalDemand": 4,
-            "socialIntent": 5,
-            "budget": 3,
+            "crowdPreference": 2,
+            "physicalDemand": 2,
+            "socialIntent": 1,
+            "budget": 1,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Discover fascinating exhibits at the Powerhouse Museum."
+            "description": "Learn and be inspired by science, design, and innovation exhibits."
         },
         {
             "name": "Karaoke",
-            "timeOfDay": "anytime",
+            "timeOfDay": "night",
             "maxTravelDistance": 1,
-            "crowdPreference": 2,
-            "physicalDemand": 4,
-            "socialIntent": 9,
-            "budget": 7,
+            "crowdPreference": 4,
+            "physicalDemand": 2,
+            "socialIntent": 3,
+            "budget": 3,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Sing your favourite tunes at a lively karaoke venue."
+            "description": "Show off your singing skills and have a blast with friends at karaoke."
         },
         {
             "name": "Blue Mountains Hike",
             "timeOfDay": "morning",
             "maxTravelDistance": 3,
-            "crowdPreference": 1,
-            "physicalDemand": 10,
-            "socialIntent": 3,
+            "crowdPreference": 0,
+            "physicalDemand": 4,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -446,15 +446,15 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Enjoy breathtaking views and challenging trails in the Blue Mountains."
+            "description": "Enjoy a serene hike with breathtaking views of the Blue Mountains."
         },
         {
             "name": "North Sydney Hike",
             "timeOfDay": "morning",
             "maxTravelDistance": 2,
-            "crowdPreference": 1,
-            "physicalDemand": 10,
-            "socialIntent": 3,
+            "crowdPreference": 0,
+            "physicalDemand": 4,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -462,15 +462,15 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Explore scenic trails and green spaces in North Sydney."
+            "description": "Discover scenic trails and greenery on a peaceful North Sydney hike."
         },
         {
             "name": "South Sydney Hike",
             "timeOfDay": "morning",
             "maxTravelDistance": 2,
-            "crowdPreference": 1,
-            "physicalDemand": 10,
-            "socialIntent": 3,
+            "crowdPreference": 0,
+            "physicalDemand": 4,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -478,31 +478,31 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Discover beautiful hiking paths in South Sydney."
+            "description": "Explore the tranquil beauty of South Sydney's hiking trails."
         },
         {
             "name": "Eastern Beaches",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
-            "crowdPreference": 8,
-            "physicalDemand": 7,
-            "socialIntent": 5,
-            "budget": 2,
+            "crowdPreference": 4,
+            "physicalDemand": 3,
+            "socialIntent": 2,
+            "budget": 1,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Relax and enjoy the sun at Sydney's stunning eastern beaches."
+            "description": "Relax and unwind by the picturesque Eastern Beaches."
         },
         {
             "name": "Mate's House",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 0,
             "crowdPreference": 0,
-            "physicalDemand": 3,
-            "socialIntent": 6,
+            "physicalDemand": 1,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": true,
             "wantsAlcohol": true,
@@ -510,31 +510,31 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Relax and enjoy casual hangouts with friends at their place."
+            "description": "Catch up with friends and enjoy quality time together at home."
         },
         {
             "name": "Public Pool",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 8,
-            "physicalDemand": 8,
-            "socialIntent": 4,
-            "budget": 2,
+            "crowdPreference": 4,
+            "physicalDemand": 4,
+            "socialIntent": 2,
+            "budget": 1,
             "wantsFood": true,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Cool off and have fun at the local swimming pool."
+            "description": "Cool off and enjoy a swim at your local public pool."
         },
         {
             "name": "Park to Play Sport",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 0,
-            "crowdPreference": 3,
-            "physicalDemand": 9,
-            "socialIntent": 4,
+            "crowdPreference": 1,
+            "physicalDemand": 4,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -542,15 +542,15 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Engage in active sports in a nearby park."
+            "description": "Get active and enjoy a game or two in a local park."
         },
         {
             "name": "Parkcrawl",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 3,
-            "physicalDemand": 8,
-            "socialIntent": 4,
+            "crowdPreference": 1,
+            "physicalDemand": 4,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -558,11 +558,11 @@
                 "publicTransport": false,
                 "driving": true
             },
-            "description": "Explore multiple parks in a fun and active day out."
+            "description": "Explore multiple parks in one day and try fun outdoor activities."
         },
         {
-            "name": "Stay the Fuck Home",
-            "timeOfDay": "anytime",
+            "name": "Stay the F*** Home",
+            "timeOfDay": "day",
             "maxTravelDistance": 0,
             "crowdPreference": 0,
             "physicalDemand": 0,
@@ -570,32 +570,35 @@
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
-            "transportModes": {},
-            "description": "Stay home and relax, perhaps play some games or take a nap."
+            "transportModes": {
+                "publicTransport": false,
+                "driving": false
+            },
+            "description": "Enjoy a relaxing day at home with your favorite activities."
         },
         {
             "name": "Escape Room",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
             "crowdPreference": 4,
-            "physicalDemand": 5,
-            "socialIntent": 9,
-            "budget": 7,
+            "physicalDemand": 2,
+            "socialIntent": 3,
+            "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Solve puzzles and work as a team to escape the room."
+            "description": "Test your problem-solving skills and teamwork in an exciting escape room."
         },
         {
-            "name": "Going for a Drive",
-            "timeOfDay": "anytime",
+            "name": "Go for a Drive",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
             "crowdPreference": 0,
-            "physicalDemand": 2,
-            "socialIntent": 3,
+            "physicalDemand": 1,
+            "socialIntent": 1,
             "budget": 1,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -603,95 +606,95 @@
                 "publicTransport": false,
                 "driving": true
             },
-            "description": "Take a leisurely drive and enjoy the scenery."
+            "description": "Take a leisurely drive and enjoy the scenery while escaping the city bustle."
         },
         {
             "name": "Arcade",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 8,
-            "physicalDemand": 4,
-            "socialIntent": 6,
-            "budget": 7,
+            "crowdPreference": 4,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Have fun with games and challenges at an arcade."
+            "description": "Challenge your friends to arcade games and enjoy a dose of nostalgia."
         },
         {
             "name": "Sports Game",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
-            "crowdPreference": 9,
-            "physicalDemand": 6,
-            "socialIntent": 7,
-            "budget": 6,
+            "crowdPreference": 4,
+            "physicalDemand": 3,
+            "socialIntent": 3,
+            "budget": 3,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Cheer on your favourite team at an exciting sports game."
+            "description": "Cheer for your favorite team at an exciting sports event."
         },
         {
             "name": "Pub Crawl",
             "timeOfDay": "night",
             "maxTravelDistance": 1,
-            "crowdPreference": 4,
-            "physicalDemand": 6,
-            "socialIntent": 6,
-            "budget": 3,
+            "crowdPreference": 2,
+            "physicalDemand": 3,
+            "socialIntent": 3,
+            "budget": 1,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Visit multiple pubs in one night for a lively outing."
+            "description": "Hop between pubs and enjoy a night of drinks and laughter."
         },
         {
             "name": "Concert",
-            "timeOfDay": "anytime",
+            "timeOfDay": "night",
             "maxTravelDistance": 2,
-            "crowdPreference": 9,
-            "physicalDemand": 5,
-            "socialIntent": 7,
-            "budget": 7,
+            "crowdPreference": 4,
+            "physicalDemand": 2,
+            "socialIntent": 3,
+            "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Enjoy live music performances from your favourite artists."
+            "description": "Experience live music from your favorite artists at a concert."
         },
         {
             "name": "Rock Climbing",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 4,
-            "physicalDemand": 8,
-            "socialIntent": 6,
-            "budget": 5,
+            "crowdPreference": 2,
+            "physicalDemand": 4,
+            "socialIntent": 2,
+            "budget": 2,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": false,
                 "driving": true
             },
-            "description": "Challenge yourself with indoor or outdoor rock climbing."
+            "description": "Test your strength and agility at an indoor or outdoor rock climbing facility."
         },
         {
             "name": "Seven Bridge Walk",
-            "timeOfDay": "anytime",
+            "timeOfDay": "morning",
             "maxTravelDistance": 2,
-            "crowdPreference": 3,
-            "physicalDemand": 10,
-            "socialIntent": 5,
+            "crowdPreference": 1,
+            "physicalDemand": 4,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -699,47 +702,111 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Take on a scenic walk across seven bridges in Sydney."
+            "description": "Explore Sydney's iconic bridges on a scenic walking tour."
         },
         {
             "name": "Speed Dating",
             "timeOfDay": "night",
             "maxTravelDistance": 1,
-            "crowdPreference": 9,
-            "physicalDemand": 2,
-            "socialIntent": 10,
-            "budget": 2,
+            "crowdPreference": 4,
+            "physicalDemand": 1,
+            "socialIntent": 3,
+            "budget": 1,
             "wantsFood": true,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Meet new people and potentially spark a connection at speed dating."
+            "description": "Meet new people and spark connections in a fun speed dating event."
         },
         {
             "name": "Luna Park",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 7,
-            "physicalDemand": 5,
-            "socialIntent": 3,
-            "budget": 9,
+            "crowdPreference": 3,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 4,
             "wantsFood": true,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Have fun on thrilling rides and games at Luna Park."
+            "description": "Enjoy thrilling rides and carnival games at Luna Park."
         },
         {
             "name": "Go to a Cafe",
-            "timeOfDay": "daytime",
+            "timeOfDay": "morning",
             "maxTravelDistance": 1,
-            "crowdPreference": 5,
+            "crowdPreference": 4,
+            "physicalDemand": 1,
+            "socialIntent": 3,
+            "budget": 1,
+            "wantsFood": true,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": true
+            },
+            "description": "Relax and enjoy a delicious coffee or brunch at your favorite cafe."
+        },
+        {
+            "name": "Club",
+            "timeOfDay": "night",
+            "maxTravelDistance": 2,
+            "crowdPreference": 4,
             "physicalDemand": 2,
-            "socialIntent": 10,
+            "socialIntent": 3,
+            "budget": 4,
+            "wantsFood": false,
+            "wantsAlcohol": true,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": false
+            },
+            "description": "Dance the night away and enjoy the energetic club scene."
+        },
+        {
+            "name": "Bike Ride",
+            "timeOfDay": "morning",
+            "maxTravelDistance": 2,
+            "crowdPreference": 0,
+            "physicalDemand": 4,
+            "socialIntent": 0,
+            "budget": 0,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": false,
+                "driving": false
+            },
+            "description": "Cycle through scenic routes and enjoy the outdoors."
+        },
+        {
+            "name": "Library",
+            "timeOfDay": "day",
+            "maxTravelDistance": 1,
+            "crowdPreference": 0,
+            "physicalDemand": 1,
+            "socialIntent": 0,
+            "budget": 0,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": true
+            },
+            "description": "Spend a quiet day reading or studying at the library."
+        },
+        {
+            "name": "Fish Markets",
+            "timeOfDay": "day",
+            "maxTravelDistance": 1,
+            "crowdPreference": 3,
+            "physicalDemand": 2,
+            "socialIntent": 1,
             "budget": 3,
             "wantsFood": true,
             "wantsAlcohol": false,
@@ -747,40 +814,59 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Relax with a warm drink and delicious food at a cafe."
+            "description": "Explore a variety of fresh seafood at the bustling fish markets."
         },
         {
-            "name": "Clubbing",
+            "name": "Ghost Tour",
             "timeOfDay": "night",
-            "maxTravelDistance": 2,
-            "crowdPreference": 9,
-            "physicalDemand": 5,
-            "socialIntent": 9,
-            "budget": 8,
+            "maxTravelDistance": 1,
+            "crowdPreference": 1,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 4,
             "wantsFood": false,
-            "wantsAlcohol": true,
+            "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Dance the night away at a lively nightclub."
+            "description": "Discover spooky tales and explore haunted locations on a ghost tour."
         },
         {
-            "name": "Bike Ride",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 2,
-            "crowdPreference": 2,
-            "physicalDemand": 10,
-            "socialIntent": 2,
+            "name": "Visit a National Park",
+            "timeOfDay": "day",
+            "maxTravelDistance": 3,
+            "crowdPreference": 0,
+            "physicalDemand": 3,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
-            "transportModes": {},
-            "description": "Enjoy a scenic and energising bike ride."
+            "transportModes": {
+                "publicTransport": true,
+                "driving": true
+            },
+            "description": "Immerse yourself in nature and enjoy scenic trails at a national park."
         },
         {
-            "name": "Library",
-            "timeOfDay": "daytime",
+            "name": "Botanic Gardens",
+            "timeOfDay": "day",
+            "maxTravelDistance": 1,
+            "crowdPreference": 0,
+            "physicalDemand": 3,
+            "socialIntent": 1,
+            "budget": 0,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": false
+            },
+            "description": "Stroll through lush greenery and vibrant floral displays at the botanic gardens."
+        },
+        {
+            "name": "Museum/Art Gallery",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
             "crowdPreference": 2,
             "physicalDemand": 2,
@@ -790,97 +876,17 @@
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
-                "driving": true
-            },
-            "description": "Relax and read in the quiet of the library."
-        },
-        {
-            "name": "Fish Markets",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 1,
-            "crowdPreference": 7,
-            "physicalDemand": 4,
-            "socialIntent": 2,
-            "budget": 7,
-            "wantsFood": true,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": true
-            },
-            "description": "Explore fresh seafood and local delicacies at the market."
-        },
-        {
-            "name": "Ghost Tour",
-            "timeOfDay": "night",
-            "maxTravelDistance": 1,
-            "crowdPreference": 3,
-            "physicalDemand": 5,
-            "socialIntent": 5,
-            "budget": 8,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
                 "driving": false
             },
-            "description": "Experience the thrill of exploring haunted locations."
-        },
-        {
-            "name": "Visit a National Park",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 3,
-            "crowdPreference": 1,
-            "physicalDemand": 7,
-            "socialIntent": 2,
-            "budget": 1,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": true
-            },
-            "description": "Enjoy nature's beauty in a serene national park."
-        },
-        {
-            "name": "Botanic Gardens",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 1,
-            "crowdPreference": 2,
-            "physicalDemand": 6,
-            "socialIntent": 2,
-            "budget": 0,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": false
-            },
-            "description": "Relax and enjoy the vibrant plant life at the gardens."
-        },
-        {
-            "name": "Museum/Art Gallery",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 1,
-            "crowdPreference": 5,
-            "physicalDemand": 5,
-            "socialIntent": 3,
-            "budget": 1,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": false
-            },
-            "description": "Explore cultural and artistic exhibits in a museum or gallery."
+            "description": "Discover fascinating exhibits and artistic masterpieces."
         },
         {
             "name": "Cockatoo Island",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 3,
-            "physicalDemand": 6,
-            "socialIntent": 3,
+            "crowdPreference": 1,
+            "physicalDemand": 3,
+            "socialIntent": 1,
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -888,79 +894,255 @@
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Visit this historic island with unique sights and activities."
+            "description": "Explore historical landmarks and unique scenery on Cockatoo Island."
         },
         {
             "name": "Helicopter Tour",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
-            "crowdPreference": 2,
-            "physicalDemand": 4,
-            "socialIntent": 3,
-            "budget": 9,
+            "crowdPreference": 1,
+            "physicalDemand": 2,
+            "socialIntent": 1,
+            "budget": 4,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Enjoy breathtaking aerial views on a helicopter ride."
+            "description": "Experience breathtaking aerial views on a helicopter tour."
         },
         {
             "name": "Harbour Bridge Climb",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 4,
-            "physicalDemand": 7,
-            "socialIntent": 3,
-            "budget": 8,
+            "crowdPreference": 2,
+            "physicalDemand": 3,
+            "socialIntent": 1,
+            "budget": 4,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Climb the iconic Harbour Bridge for stunning views."
+            "description": "Scale the iconic Harbour Bridge for unparalleled views of Sydney."
         },
         {
             "name": "Comedy Show",
             "timeOfDay": "night",
             "maxTravelDistance": 1,
-            "crowdPreference": 8,
-            "physicalDemand": 3,
-            "socialIntent": 4,
-            "budget": 7,
+            "crowdPreference": 3,
+            "physicalDemand": 1,
+            "socialIntent": 2,
+            "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": true,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Laugh the night away at a live comedy performance."
+            "description": "Laugh the night away at a hilarious comedy show."
         },
         {
             "name": "Have a Picnic",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 2,
-            "crowdPreference": 1,
-            "physicalDemand": 4,
-            "socialIntent": 8,
-            "budget": 1,
+            "crowdPreference": 0,
+            "physicalDemand": 2,
+            "socialIntent": 3,
+            "budget": 0,
             "wantsFood": true,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Enjoy a relaxing meal outdoors in a scenic location."
+            "description": "Relax and enjoy a meal outdoors with friends or family."
         },
         {
             "name": "Outdoor Cinema",
             "timeOfDay": "night",
             "maxTravelDistance": 2,
-            "crowdPreference": 7,
-            "physicalDemand": 3,
-            "socialIntent": 5,
+            "crowdPreference": 3,
+            "physicalDemand": 1,
+            "socialIntent": 2,
+            "budget": 1,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": true
+            },
+            "description": "Watch a movie under the stars at an outdoor cinema."
+        },
+        {
+            "name": "Wine Tasting",
+            "timeOfDay": "day",
+            "maxTravelDistance": 2,
+            "crowdPreference": 2,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 4,
+            "wantsFood": true,
+            "wantsAlcohol": true,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": false
+            },
+            "description": "Savor a variety of wines in a relaxed and scenic setting."
+        },
+        {
+            "name": "Go to a Brewery",
+            "timeOfDay": "day",
+            "maxTravelDistance": 2,
+            "crowdPreference": 3,
+            "physicalDemand": 1,
+            "socialIntent": 2,
+            "budget": 2,
+            "wantsFood": true,
+            "wantsAlcohol": true,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": false
+            },
+            "description": "Enjoy craft beers and good food at a local brewery."
+        },
+        {
+            "name": "Ferry Ride to Manly",
+            "timeOfDay": "day",
+            "maxTravelDistance": 2,
+            "crowdPreference": 1,
+            "physicalDemand": 2,
+            "socialIntent": 1,
+            "budget": 0,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": false
+            },
+            "description": "Take a scenic ferry ride and explore the beauty of Manly. Or just catch a ferry somewhere."
+        },
+        {
+            "name": "Fruit Picking",
+            "timeOfDay": "day",
+            "maxTravelDistance": 3,
+            "crowdPreference": 1,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 3,
+            "wantsFood": true,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": false,
+                "driving": true
+            },
+            "description": "Spend a delightful day picking fresh fruits straight from the orchard."
+        },
+        {
+            "name": "Reverse Garbage",
+            "timeOfDay": "day",
+            "maxTravelDistance": 1,
+            "crowdPreference": 2,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 2,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": false,
+                "driving": true
+            },
+            "description": "Explore upcycled treasures and sustainable materials at Reverse Garbage."
+        },
+        {
+            "name": "Attend a Market Event",
+            "timeOfDay": "day",
+            "maxTravelDistance": 2,
+            "crowdPreference": 3,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 3,
+            "wantsFood": true,
+            "wantsAlcohol": true,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": true
+            },
+            "description": "Discover local crafts, food, and entertainment at a vibrant market event."
+        },
+        {
+            "name": "Scenic World",
+            "timeOfDay": "day",
+            "maxTravelDistance": 3,
+            "crowdPreference": 1,
+            "physicalDemand": 4,
+            "socialIntent": 1,
+            "budget": 3,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": false,
+                "driving": true
+            },
+            "description": "Experience breathtaking views and thrilling rides at Scenic World."
+        },
+        {
+            "name": "Buffet",
+            "timeOfDay": "day",
+            "maxTravelDistance": 1,
+            "crowdPreference": 2,
+            "physicalDemand": 1,
+            "socialIntent": 2,
+            "budget": 3,
+            "wantsFood": true,
+            "wantsAlcohol": true,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": true
+            },
+            "description": "Indulge in a wide variety of dishes at a buffet."
+        },
+        {
+            "name": "Newtown",
+            "timeOfDay": "night",
+            "maxTravelDistance": 1,
+            "crowdPreference": 3,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 2,
+            "wantsFood": true,
+            "wantsAlcohol": true,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": true
+            },
+            "description": "Explore the lively and eclectic streets of Newtown with great food and nightlife."
+        },
+        {
+            "name": "See a Musical",
+            "timeOfDay": "day",
+            "maxTravelDistance": 1,
+            "crowdPreference": 3,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 3,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": true,
+                "driving": false
+            },
+            "description": "Enjoy captivating performances and music at a theater show."
+        },
+        {
+            "name": "Attend a Craft Workshop",
+            "timeOfDay": "day",
+            "maxTravelDistance": 2,
+            "crowdPreference": 3,
+            "physicalDemand": 2,
+            "socialIntent": 3,
             "budget": 3,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -968,192 +1150,32 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Watch a film under the stars at an outdoor cinema."
-        },
-        {
-            "name": "Wine Tasting",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 2,
-            "crowdPreference": 5,
-            "physicalDemand": 4,
-            "socialIntent": 5,
-            "budget": 8,
-            "wantsFood": true,
-            "wantsAlcohol": true,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": false
-            },
-            "description": "Sample a variety of wines at a tasting event."
-        },
-        {
-            "name": "Go to a Brewery",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 2,
-            "crowdPreference": 4,
-            "physicalDemand": 3,
-            "socialIntent": 7,
-            "budget": 5,
-            "wantsFood": true,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": false
-            },
-            "description": "Explore craft beers and enjoy delicious food at a brewery."
-        },
-        {
-            "name": "Ferry Ride to Manly",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 2,
-            "crowdPreference": 2,
-            "physicalDemand": 4,
-            "socialIntent": 4,
-            "budget": 1,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": false
-            },
-            "description": "Enjoy the scenic ferry ride to the beautiful suburb of Manly."
-        },
-        {
-            "name": "Fruit Picking",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 3,
-            "crowdPreference": 2,
-            "physicalDemand": 5,
-            "socialIntent": 5,
-            "budget": 7,
-            "wantsFood": true,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": false,
-                "driving": true
-            },
-            "description": "Pick fresh fruits directly from the orchard."
-        },
-        {
-            "name": "Reverse Garbage",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 1,
-            "crowdPreference": 2,
-            "physicalDemand": 4,
-            "socialIntent": 6,
-            "budget": 4,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": false,
-                "driving": true
-            },
-            "description": "Shop for unique and sustainable materials at Reverse Garbage."
-        },
-        {
-            "name": "Attend a Market Event",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 2,
-            "crowdPreference": 8,
-            "physicalDemand": 5,
-            "socialIntent": 6,
-            "budget": 6,
-            "wantsFood": true,
-            "wantsAlcohol": true,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": true
-            },
-            "description": "Explore a bustling market with food, crafts, and activities."
-        },
-        {
-            "name": "Scenic World",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 3,
-            "crowdPreference": 3,
-            "physicalDemand": 8,
-            "socialIntent": 3,
-            "budget": 7,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": false,
-                "driving": true
-            },
-            "description": "Experience breathtaking views and rides in the Blue Mountains."
-        },
-        {
-            "name": "Buffet",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 1,
-            "crowdPreference": 3,
-            "physicalDemand": 2,
-            "socialIntent": 5,
-            "budget": 6,
-            "wantsFood": true,
-            "wantsAlcohol": true,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": true
-            },
-            "description": "Indulge in an all-you-can-eat buffet experience."
-        },
-        {
-            "name": "Newtown",
-            "timeOfDay": "night",
-            "maxTravelDistance": 1,
-            "crowdPreference": 7,
-            "physicalDemand": 4,
-            "socialIntent": 7,
-            "budget": 5,
-            "wantsFood": true,
-            "wantsAlcohol": true,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": true
-            },
-            "description": "Explore Newtown's vibrant nightlife and dining scene."
-        },
-        {
-            "name": "Attend a Craft Workshop",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 2,
-            "crowdPreference": 6,
-            "physicalDemand": 4,
-            "socialIntent": 7,
-            "budget": 6,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": true
-            },
-            "description": "Learn new skills and create handmade items at a craft workshop."
+            "description": "Learn new skills and create something unique at a craft workshop."
         },
         {
             "name": "Harbour Cruise",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 1,
-            "crowdPreference": 6,
-            "physicalDemand": 4,
-            "socialIntent": 6,
-            "budget": 7,
+            "crowdPreference": 3,
+            "physicalDemand": 2,
+            "socialIntent": 2,
+            "budget": 3,
             "wantsFood": true,
             "wantsAlcohol": false,
             "transportModes": {
                 "publicTransport": true,
                 "driving": false
             },
-            "description": "Relax on a scenic cruise around Sydney Harbour."
+            "description": "Relax and enjoy stunning views on a Sydney Harbour Cruise."
         },
         {
             "name": "Three Sisters",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 3,
-            "crowdPreference": 2,
-            "physicalDemand": 8,
-            "socialIntent": 3,
-            "budget": 1,
+            "crowdPreference": 1,
+            "physicalDemand": 4,
+            "socialIntent": 1,
+            "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
             "transportModes": {
@@ -1164,11 +1186,11 @@
         },
         {
             "name": "Glow Worm Tunnel",
-            "timeOfDay": "daytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 3,
-            "crowdPreference": 1,
-            "physicalDemand": 9,
-            "socialIntent": 2,
+            "crowdPreference": 0,
+            "physicalDemand": 4,
+            "socialIntent": 0,
             "budget": 0,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -1180,107 +1202,11 @@
         },
         {
             "name": "Erina Fair",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 3,
-            "crowdPreference": 7,
-            "physicalDemand": 6,
-            "socialIntent": 4,
-            "budget": 8,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": false,
-                "driving": true
-            },
-            "description": "Shop, dine, and enjoy entertainment at this large shopping centre."
-        },
-        {
-            "name": "Dam Cliffs",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 3,
-            "crowdPreference": 1,
-            "physicalDemand": 8,
-            "socialIntent": 2,
-            "budget": 0,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": false,
-                "driving": true
-            },
-            "description": "Explore the rugged beauty of the Dam Cliffs."
-        },
-        {
-            "name": "Newnes",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 3,
-            "crowdPreference": 1,
-            "physicalDemand": 9,
-            "socialIntent": 2,
-            "budget": 0,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": false,
-                "driving": true
-            },
-            "description": "Discover the historic ruins and trails in Newnes."
-        },
-        {
-            "name": "Fishing in the Pacific",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 3,
-            "crowdPreference": 1,
-            "physicalDemand": 6,
-            "socialIntent": 6,
-            "budget": 1,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": false,
-                "driving": true
-            },
-            "description": "Enjoy the tranquility of fishing in the Pacific Ocean."
-        },
-        {
-            "name": "Sydney Fishing",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 2,
-            "crowdPreference": 1,
-            "physicalDemand": 5,
-            "socialIntent": 6,
-            "budget": 1,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": false,
-                "driving": true
-            },
-            "description": "Cast a line and relax while fishing in Sydney waters."
-        },
-        {
-            "name": "Kiama Blow Hole",
-            "timeOfDay": "anytime",
+            "timeOfDay": "day",
             "maxTravelDistance": 3,
             "crowdPreference": 2,
-            "physicalDemand": 5,
-            "socialIntent": 5,
-            "budget": 0,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": false,
-                "driving": true
-            },
-            "description": "Marvel at the natural power of the Kiama Blow Hole."
-        },
-        {
-            "name": "The Gong",
-            "timeOfDay": "daytime",
-            "maxTravelDistance": 3,
-            "crowdPreference": 5,
-            "physicalDemand": 6,
-            "socialIntent": 4,
+            "physicalDemand": 3,
+            "socialIntent": 2,
             "budget": 4,
             "wantsFood": false,
             "wantsAlcohol": false,
@@ -1288,7 +1214,87 @@
                 "publicTransport": false,
                 "driving": true
             },
-            "description": "Explore Wollongong, a coastal city with plenty to see and do."
+            "description": "Shop and explore one of the largest shopping centers in the region."
+        },
+        {
+            "name": "Dam Cliffs",
+            "timeOfDay": "day",
+            "maxTravelDistance": 3,
+            "crowdPreference": 0,
+            "physicalDemand": 4,
+            "socialIntent": 0,
+            "budget": 0,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": false,
+                "driving": true
+            },
+            "description": "Discover hidden swimming spots and scenic views at Dam Cliffs."
+        },
+        {
+            "name": "Newnes",
+            "timeOfDay": "day",
+            "maxTravelDistance": 3,
+            "crowdPreference": 0,
+            "physicalDemand": 4,
+            "socialIntent": 0,
+            "budget": 0,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": false,
+                "driving": true
+            },
+            "description": "Explore the historical ruins and natural beauty of Newnes."
+        },
+        {
+            "name": "Fishing in the Pacific",
+            "timeOfDay": "day",
+            "maxTravelDistance": 3,
+            "crowdPreference": 0,
+            "physicalDemand": 3,
+            "socialIntent": 0,
+            "budget": 0,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": false,
+                "driving": true
+            },
+            "description": "Relax and enjoy a peaceful day of fishing in the Pacific Ocean."
+        },
+        {
+            "name": "Kiama Blow Hole",
+            "timeOfDay": "day",
+            "maxTravelDistance": 3,
+            "crowdPreference": 1,
+            "physicalDemand": 2,
+            "socialIntent": 1,
+            "budget": 0,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": false,
+                "driving": true
+            },
+            "description": "Marvel at the natural wonder of the Kiama Blow Hole."
+        },
+        {
+            "name": "The Gong",
+            "timeOfDay": "day",
+            "maxTravelDistance": 3,
+            "crowdPreference": 2,
+            "physicalDemand": 3,
+            "socialIntent": 1,
+            "budget": 2,
+            "wantsFood": false,
+            "wantsAlcohol": false,
+            "transportModes": {
+                "publicTransport": false,
+                "driving": true
+            },
+            "description": "Explore the vibrant city of Wollongong with scenic coastal views and activities."
         }
     ]
 }
