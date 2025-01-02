@@ -49,22 +49,6 @@
             "description": "Unleash your inner lumberjack with a fun, competitive activity."
         },
         {
-            "name": "Summer Hill Hotel",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 0,
-            "crowdPreference": 4,
-            "physicalDemand": 1,
-            "socialIntent": 9,
-            "budget": 3,
-            "wantsFood": true,
-            "wantsAlcohol": true,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": true
-            },
-            "description": "A vibrant pub perfect for a meal and a drink with friends."
-        },
-        {
             "name": "Bowling",
             "timeOfDay": "anytime",
             "maxTravelDistance": 1,
@@ -289,7 +273,7 @@
             "description": "Challenge your friends to a round of mini golf."
         },
         {
-            "name": "Simpsons Cooking Day",
+            "name": "Cooking With Friends",
             "timeOfDay": "anytime",
             "maxTravelDistance": 0,
             "crowdPreference": 0,
@@ -302,7 +286,7 @@
                 "publicTransport": true,
                 "driving": true
             },
-            "description": "Spend a day cooking delicious meals inspired by the Simpsons."
+            "description": "Spend a day cooking delicious meals with friends."
         },
         {
             "name": "Jamberoo",
@@ -321,8 +305,8 @@
             "description": "A thrilling water park where you control the action."
         },
         {
-            "name": "Packed Abode Rave",
-            "timeOfDay": "anytime",
+            "name": "Rave",
+            "timeOfDay": "night",
             "maxTravelDistance": 0,
             "crowdPreference": 0,
             "physicalDemand": 7,
@@ -350,7 +334,7 @@
                 "publicTransport": false,
                 "driving": true
             },
-            "description": "Enjoy a hearty meal at Papadino's."
+            "description": "Enjoy a hearty meal at Papadino's in Katoomba."
         },
         {
             "name": "Ice Skating",
@@ -417,7 +401,7 @@
             "description": "Spend a day exploring the animals and exhibits at Taronga Zoo."
         },
         {
-            "name": "Powerhouse",
+            "name": "The Powerhouse Museum",
             "timeOfDay": "daytime",
             "maxTravelDistance": 1,
             "crowdPreference": 4,
@@ -766,7 +750,7 @@
             "description": "Relax with a warm drink and delicious food at a cafe."
         },
         {
-            "name": "Club",
+            "name": "Clubbing",
             "timeOfDay": "night",
             "maxTravelDistance": 2,
             "crowdPreference": 9,
@@ -1129,22 +1113,6 @@
                 "driving": true
             },
             "description": "Explore Newtown's vibrant nightlife and dining scene."
-        },
-        {
-            "name": "See a Musical",
-            "timeOfDay": "anytime",
-            "maxTravelDistance": 1,
-            "crowdPreference": 7,
-            "physicalDemand": 5,
-            "socialIntent": 4,
-            "budget": 7,
-            "wantsFood": false,
-            "wantsAlcohol": false,
-            "transportModes": {
-                "publicTransport": true,
-                "driving": false
-            },
-            "description": "Enjoy a captivating live musical performance."
         },
         {
             "name": "Attend a Craft Workshop",

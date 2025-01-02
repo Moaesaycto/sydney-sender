@@ -1,7 +1,9 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+import { defineConfig } from 'vite';
+
 export default defineConfig({
-  plugins: [react()],
-})
+  base: '/sydney-sender/', // Use your GitHub repository name here
+  build: {
+    outDir: 'dist', // Optional: Ensure output goes to the 'dist' folder
+  },
+});
