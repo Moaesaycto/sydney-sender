@@ -14,6 +14,8 @@ export const SydneySender = () => {
     const [containerHeight, setContainerHeight] = useState("auto");
     const resultsRef = useRef<HTMLDivElement>(null);
 
+    void setTimeMode;
+
     const handleFormSubmit = (formData: ActivityFormData) => {
         setGeneratedResults([]);
         const newResults = generateResults(formData).sort((a, b) => b.score - a.score);

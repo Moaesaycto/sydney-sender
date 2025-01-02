@@ -39,6 +39,8 @@ const Layer = styled.div<{ $isVisible: boolean }>`
 `;
 
 export const Cityscape = ({ height, seed = "default-seed", mode = "day" }: CityscapeProps) => {
+    void height;
+
     const rng = seedrandom(seed);
 
     const stars = Array.from({ length: NUM_STARS }).map((_, i) => {
