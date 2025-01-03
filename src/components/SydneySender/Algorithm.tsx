@@ -78,10 +78,10 @@ const getSimilarity = (formData: ActivityFormData, input: ResultData) => {
     total += PRIC_RATE * (MAX_PRIC - Math.abs(formData.budget - input.budget)) / MAX_PRIC;
     total += STRG_RATE * (MAX_PTRA - Math.abs(formData.crowdPreference - input.crowdPreference)) / MAX_PTRA;
 
-    total += formData.wantsFood ? HUNG_RATE : 0;
-    total += formData.wantsAlcohol ? ALCH_RATE : 0;
-    total += formData.transportModes.driving ? PRKG_RATE : 0;
-    total += formData.transportModes.driving ? PTRA_RATE : 0;
+    total += HUNG_RATE * (formData.wantsFood === input.wantsFood ? 1 : 0);
+    total += ALCH_RATE * (formData.wantsAlcohol === input.wantsAlcohol ? 1 : 0);
+    total += PRKG_RATE * (formData.transportModes.driving === input.transportModes.driving ? 1 : 0);
+    total += PTRA_RATE * (formData.transportModes.publicTransport === input.transportModes.publicTransport ? 1 : 0);
 
 
     return total / (DIST_RATE + SOCI_RATE + PHYS_RATE + PRIC_RATE + HUNG_RATE + PTRA_RATE + PRKG_RATE + ALCH_RATE + TODA_RATE + STRG_RATE);
