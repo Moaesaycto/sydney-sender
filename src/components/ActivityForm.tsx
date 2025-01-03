@@ -36,7 +36,7 @@ const FormSelect = ({
         <select
             value={value}
             onChange={(e) => onChange(e.target.value)}
-            className="mt-2 p-2 border rounded focus:ring focus:ring-blue-300"
+            className="mt-2 p-2 border rounded focus:ring focus:ring-blue-300 bg-neutral-800 text-white"
         >
             {options.map((option) => (
                 <option key={option.value} value={option.value}>

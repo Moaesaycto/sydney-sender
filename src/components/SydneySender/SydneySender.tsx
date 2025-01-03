@@ -104,7 +104,7 @@ export const SydneySender = () => {
                 className="relative w-[90%] max-w-4xl p-6 rounded-lg shadow-lg"
                 style={{
                     zIndex: 1,
-                    backgroundColor: "rgba(0, 0, 0, 0.7)",
+                    backgroundColor: "rgba(0, 0, 0, 0.8)",
                 }}
             >
                 <ActivityForm onFormSubmit={handleFormSubmit} setMode={setTransitionMode} />
@@ -115,7 +115,7 @@ export const SydneySender = () => {
                 className="relative w-[90%] max-w-4xl p-6 rounded-lg shadow-lg results-container"
                 style={{
                     zIndex: 1,
-                    backgroundColor: "rgba(0, 0, 0, 0.7)",
+                    backgroundColor: "rgba(0, 0, 0, 0.8)",
                     overflow: "hidden",
                     height: containerHeight, // Dynamically set height
                     transition: "height 0.5s ease",
