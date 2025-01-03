@@ -23,16 +23,16 @@ export interface GeneratedResults {
     description: string;
 }
 
-const DIST_RATE = 30;
-const SOCI_RATE = 10;
-const PHYS_RATE = 20;
-const PRIC_RATE = 10;
+const DIST_RATE = 31;
+const SOCI_RATE = 11;
+const PHYS_RATE = 18;
+const PRIC_RATE = 12;
 const HUNG_RATE = 10;
-const PTRA_RATE = 10;
-const PRKG_RATE = 10;
-const ALCH_RATE = 30;
-const TODA_RATE = 30;
-const STRG_RATE = 10;
+const PTRA_RATE = 11;
+const PRKG_RATE = 8;
+const ALCH_RATE = 29;
+const TODA_RATE = 27;
+const STRG_RATE = 13;
 // const BOOK_RATE = 5;
 
 const MAX_DIST = 4;
