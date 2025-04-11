@@ -109,10 +109,10 @@ export const SydneySender = () => {
             >
                 <ActivityForm onFormSubmit={handleFormSubmit} setMode={setTransitionMode} />
             </div>
-            <br />
+
             <div
                 ref={resultsRef}
-                className="relative w-[90%] max-w-4xl p-6 rounded-lg shadow-lg results-container"
+                className="relative w-[90%] max-w-4xl p-6 mt-6 rounded-lg shadow-lg results-container"
                 style={{
                     zIndex: 1,
                     backgroundColor: "rgba(0, 0, 0, 0.8)",
