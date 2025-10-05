@@ -42,7 +42,7 @@ export const Header = () => {
     return (
         <header>
             <div style={headerStyle}>
-                <h1 style={headingStyle}>They Sydney Sender</h1>
+                <h1 style={headingStyle}>The Sydney Sender</h1>
                 <p style={fontStyle}>
                     Check out more of my projects{' '}
                     <a
