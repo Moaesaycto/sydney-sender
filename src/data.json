@@ -561,7 +561,7 @@
             "description": "Explore multiple parks in one day and try fun outdoor activities."
         },
         {
-            "name": "Stay the F*** Home",
+            "name": "Stay Home",
             "timeOfDay": "day",
             "maxTravelDistance": 0,
             "crowdPreference": 0,
@@ -574,7 +574,7 @@
                 "publicTransport": false,
                 "driving": false
             },
-            "description": "Enjoy a relaxing day at home with your favorite activities."
+            "description": "Looks like you don't have the energy to actually go out."
         },
         {
             "name": "Escape Room",
