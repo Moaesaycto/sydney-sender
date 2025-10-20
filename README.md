@@ -1,50 +1,17 @@
-# React + TypeScript + Vite
+# **The Sydney Sender**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Type:** Web App · **Tech Stack:** React, TypeScript, Custom CSS/SVG · **Status:** Completed
 
-Currently, two official plugins are available:
+## **Overview**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Sydney Sender** is a web app that recommends activities around Sydney based on how you feel. Instead of wasting time deciding what to do, users simply select their mood, and the app suggests options using a lightweight algorithm built on a **modified linear regression model** to score activities by vibe. [You can try it here](https://moaesaycto.github.io/sydney-sender)!
 
-## Expanding the ESLint configuration
+## **Features**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* **Mood-Based Suggestions:** Generates activity ideas aligned with user sentiment.
+* **Smart Scoring System:** Custom algorithm ranks activities by relevance and tone.
+* **Polished UI:** Built with **React**, **TypeScript**, and **custom SVG graphics** for a clean, playful look.
 
-- Configure the top-level `parserOptions` property like this:
+## **Purpose**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Created as a fun collaboration to simplify decision-making and help locals and tourists explore Sydney more intuitively.
